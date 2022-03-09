@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+
+canvas{
+  display: block;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 8px;
+  color: bisque;
+}
+
+p {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 500;
+}
+
+.present {
+  font-family: 'Gayathri', sans-serif !important;
+}
+
+.flex-box {
+  line-height: 2.5rem;
+  max-width: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  font-size: larger;
+  margin: 10rem auto;
+}
+
+.flex-item {
+  padding: 1rem;
+}
